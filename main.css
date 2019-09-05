@@ -40,7 +40,8 @@ header{
  .area{
      background-color: rgb(136, 62, 62);
      margin-left: 2rem;
-     width: 10rem;
+     width: 5rem;
+     font-size: 0.8rem;
      height: 0.7rem;
      padding: 1.5rem 1rem;
      text-transform: uppercase;
