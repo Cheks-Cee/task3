@@ -1,0 +1,184 @@
+/* .root{
+    --redColor: rgb(136, 62, 62);
+} */
+
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(235, 225, 225, 0.3),rgba(225,225,225,0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png);
+    /* background-image: url(images/code_background.PNG); */
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.front{
+    background-color: black;
+    color: white;
+    height: 60vh;
+    width: 60vw;
+    padding: 2rem;
+    
+}
+
+ img{
+     border-radius: 50%;
+ }
+
+ .areas{
+     /* margin-top: 2rem; */
+     display: flex;
+     justify-content: center;
+     /* align-items: flex-end; */
+     margin-top: 3rem;
+ }
+ .area{
+     background-color: rgb(136, 62, 62);
+     margin-left: 2rem;
+     width: 10rem;
+     height: 0.7rem;
+     padding: 1.5rem 1rem;
+     text-transform: uppercase;
+    
+ }
+ .area a{
+     color:white;
+     text-decoration: none;
+ }
+
+ .area:hover{
+     background-color: rgb(24, 92, 24);
+     
+ }
+ /* .area a:hover{
+     color:black;
+ } */
+
+ /* .front{
+     display: flex;
+     justify-content: center;
+ } */
+
+ 
+ .subs{
+     min-height: 100vh;
+     margin: 3rem;
+     
+ }
+
+ #technologies{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+
+h1{
+    text-align: center;
+    color: rgb(136, 62, 62);
+    font-size: 3rem;
+}
+/* #experience .ruler{
+    background-color: blue;
+    width: 15vw;
+    height: 16px;
+    background-color: blue;
+    position: absolute;
+    bottom: 50vh;
+    margin:auto;
+} */
+
+.parent{
+    /* display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr; */
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3vw;
+}
+.parent h2{
+    align-items: center;
+    justify-items: center;
+    text-decoration: underline;
+}
+
+#referees{
+    background-color: green;
+
+}
+#referees ul li{
+    display:inline-block;
+    margin-left: 3rem;
+    background-color:black;
+    color: white;
+    width: 25vw;
+    min-height: 30vh;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+#competences{
+    background-color: grey;
+}
+
+#competences ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    background-color:black;
+    color: white;
+    width: 25vw;
+    min-height: 20vh;
+    padding-top: 8rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin: 3rem; */
+    background-color:rgb(136, 62, 62);
+    color:white;
+    
+}
+.pack{
+    margin:3rem;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5rem;
+
+    
+}
+
+
+.form{
+    width: 25vw;
+    box-shadow: 0 10px 20PX rgb(141, 134, 134);
+    padding: 5rem;
+
+}
+
+button{
+    background-color: rgb(136, 62, 62);
+    color: white;
+    font-size: 1rem;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 10px;
+}
